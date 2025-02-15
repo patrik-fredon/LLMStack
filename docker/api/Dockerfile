@@ -46,7 +46,7 @@ ENV DJANGO_SETTINGS_MODULE=llmstack.server.settings
 RUN python manage.py collectstatic --noinput --clear
 
 # Stage 2: Build final image
-FROM python:3.11-slim
+FROM python:3.13.2-slim
 
 ARG APP_USER=appuser
 RUN groupadd -r ${APP_USER} && useradd --no-log-init -r -g ${APP_USER} ${APP_USER} \
