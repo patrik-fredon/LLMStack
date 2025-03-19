@@ -39,7 +39,7 @@
     "hast-util-is-element": "^3.0.0",
     "hast-util-to-html": "^9.0.0",
     "js-yaml": "^4.1.0",
-    "lexical": "^0.9.1",
+    "lexical": "^0.23.1",
     "liquidjs": "^10.9.2",
     "moment": "^2.29.4",
     "notistack": "^3.0.1",
