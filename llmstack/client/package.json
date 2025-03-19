@@ -11,7 +11,7 @@
     "@heroicons/react": "^2.1.5",
     "@jsonforms/material-renderers": "^3.1.0",
     "@jsonforms/react": "^3.0.0",
-    "@lexical/react": "^0.9.2",
+    "@lexical/react": "^0.23.1",
     "@mui/icons-material": "^5.11.16",
     "@mui/lab": "^5.0.0-alpha.124",
     "@mui/x-data-grid": "^6.17.0",
