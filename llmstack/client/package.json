@@ -15,7 +15,7 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/lab": "^5.0.0-alpha.124",
     "@mui/x-data-grid": "^6.17.0",
-    "@mui/x-data-grid-generator": "^6.16.2",
+    "@mui/x-data-grid-generator": "^6.20.5",
     "@mui/x-date-pickers": "^6.16.1",
     "@novnc/novnc": "^1.4.0",
     "@react-pdf-viewer/core": "^3.12.0",
