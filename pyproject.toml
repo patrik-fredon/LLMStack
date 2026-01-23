@@ -21,7 +21,7 @@ junos-eznc = {version="^2.6.8", optional=true}
 python-on-whales = "^0.71.0"
 channels-redis = "^4.2.0"
 jsonpath-ng = "^1.6.1"
-cryptography = "^43.0.1"
+cryptography = ">=43.0.1,<45.0.0"
 grpcio = "1.65.1"
 
 [tool.poetry.extras]
@@ -35,7 +35,7 @@ pre-commit = "^3.6.0"
 [tool.poetry.group.server.dependencies]
 django = "^5.0.6"
 drf-yaml = {version = "^3.0.1"}
-django-allauth = "^0.63.3"
+django-allauth = ">=0.63.3,<65.14.0"
 django-environ = "^0.11.2"
 django-picklefield = "^3.2"
 django-redis = "^5.4.0"
@@ -59,7 +59,7 @@ pyjwt = "^2.8.0"
 psycopg2-binary = "^2.9.9"
 geoip2 = "^4.8.0"
 typing-extensions = {version = "^4.5.0" }
-twisted = "^24.3.0"
+twisted = ">=24.3,<26.0"
 uvloop = [
   {version = "^0.17.0",  platform = "darwin" },
   {version = "^0.17.0",  platform = "linux" }
@@ -89,7 +89,7 @@ ffmpeg-python = {version = "^0.2.0" }
 pydub = {version = "^0.25.1" }
 boto3 = {version = "^1.26.122" }
 botocore = {version = "^1.29.122" }
-yt-dlp = "^2024.5.27"
+yt-dlp = ">=2024.5.27,<2026.0.0"
 markdown = {version = "^3.4.4" }
 anthropic = "^0.30.0"
 pypdf = "^4.2.0"
